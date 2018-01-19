@@ -2,7 +2,7 @@ import React from 'react'
 import Progress from './progress'
 import {MUSIC_LIST} from '../config/config'
 import {format,randomRange} from '../utils/utils'
-import {BrowserRouter as Router, NavLink} from 'react-router-dom'
+import {HashRouter as Router, NavLink} from 'react-router-dom'
 import PubSub from 'pubsub-js'
 class Music extends React.Component {
   constructor(props) {

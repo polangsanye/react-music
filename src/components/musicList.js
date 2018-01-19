@@ -1,6 +1,6 @@
 import React from 'react'
 import {MUSIC_LIST} from '../config/config'
-import { BrowserRouter as Router, NavLink  } from 'react-router-dom'
+import { HashRouter as Router, NavLink  } from 'react-router-dom'
 import PubSub from 'pubsub-js'
 
 class MusicList  extends  React.Component{

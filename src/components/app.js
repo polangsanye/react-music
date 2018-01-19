@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './header'
 import Music from './music'
 import MusicList from './musicList'
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {HashRouter as Router, Route, Switch} from 'react-router-dom'
 class App extends React.Component {
   render() {
     return (
