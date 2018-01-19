@@ -58,7 +58,7 @@ class Music extends React.Component {
     this.setState({
       currentIndex: newIndex
     });
-    window.location = `http://localhost:3000/music/${newIndex}`;
+    window.location = `https://polangsanye.github.io/react-music/build/index.html#/music/${newIndex}`
   };
   musicType = () => (
       this.state.type === "order" ? "order" : this.state.type === "random" ? "random" : "cycle"
@@ -85,7 +85,7 @@ class Music extends React.Component {
       currentIndex: newIndex
     });
     PubSub.publish("changeIndex",newIndex)
-    window.location = `http://localhost:3000/music/${newIndex}`
+    window.location = `https://polangsanye.github.io/react-music/build/index.html#/music/${newIndex}`
   };
   handleTime = (e) => {
     this.setState({
